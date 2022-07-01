@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "vars.foo",
+      "type": "java.lang.String",
+      "description": "Description for vars.foo."
+    },
+    {
+      "name": "vars.lucky-number",
+      "type": "java.lang.String",
+      "description": "Description for vars.lucky-number."
+    }
+  ] }

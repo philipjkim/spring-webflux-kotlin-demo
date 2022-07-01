@@ -22,6 +22,12 @@ kotlin("jvm") version "1.7.0"
 kotlin("plugin.spring") version "1.7.0"
 ```
 
+I renamed `application.properties` in `src/main/resources/` to `application.yaml`, because I prefer declaring properties using YAML format. To enjoy configuration auto-completion support of IDE, I added spring-boot-configuration-processor to dependencies in `build.gradle.kts`.
+
+```kt
+annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
+```
+
 ### Adding REST API Endpoints
 
 TODO
