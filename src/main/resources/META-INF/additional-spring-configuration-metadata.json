@@ -7,7 +7,7 @@
     },
     {
       "name": "vars.lucky-number",
-      "type": "java.lang.String",
+      "type": "java.lang.Integer",
       "description": "Description for vars.lucky-number."
     }
   ] }
