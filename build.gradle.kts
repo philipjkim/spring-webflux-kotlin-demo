@@ -22,9 +22,13 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
+    implementation("com.github.javafaker:javafaker:1.0.2") {
+        exclude("org.yaml", "snakeyaml")
+    }
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("io.projectreactor:reactor-test")
+    testImplementation("app.cash.turbine:turbine:0.8.0")
 
     annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
 }
